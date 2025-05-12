@@ -1,0 +1,26 @@
+{
+  "type": "dsp",
+  "name": "peak-feature-extractor",
+  "version": 2,
+  "parameters": {
+    "info": {
+      "name": "Peak Feature Extractor",
+      "description": "Estrae numero di picchi, ampiezza massima, media e deviazione standard."
+    },
+    "parameters": [
+      {
+        "name": "threshold",
+        "description": "Soglia per il rilevamento dei picchi",
+        "type": "int",
+        "default": 20000,
+        "min": 1000,
+        "max": 32767
+      }
+    ]
+  },
+  "config": {
+    "edgeimpulse.com": {
+      "organizationId": 286380
+    }
+  }
+}

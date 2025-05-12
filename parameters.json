@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "type": "dsp",
+  "input": "audio",
+  "sampleRate": 16000,
+  "channels": 1,
+  "parameters": {
+    "info": {
+      "name": "Peak Feature Extractor",
+      "description": "Estrae numero di picchi, ampiezza massima, media e deviazione standard."
+    },
+    "parameters": [
+      {
+        "name": "threshold",
+        "description": "Soglia per il rilevamento dei picchi",
+        "type": "int",
+        "default": 20000,
+        "min": 1000,
+        "max": 32767
+      }
+    ]
+  }
+}

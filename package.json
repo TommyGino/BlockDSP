@@ -1,0 +1,9 @@
+{
+  "name": "peak-feature-extractor",
+  "version": "1.0.0",
+  "type": "dsp",
+  "author": "Tommaso Simoncelli",
+  "description": "Estrae picchi e ampiezza massima da una finestra audio.",
+  "main": "dsp.py",
+  "license": "MIT"
+}
